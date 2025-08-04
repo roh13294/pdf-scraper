@@ -16,16 +16,9 @@ It is designed for situations where engineers need to pull structured insights o
 
 ---
 
-## Example Output
-| file          | error_codes       | config_params                    |
-|---------------|------------------|----------------------------------|
-| log1.pdf      | ERR1023, ERR2045 | MAX_SPEED=250; TIMEOUT=30s       |
-| firmware.pdf  | None             | VERSION=1.2.0; BUILD=release     |
+## Example Usage
 
----
+Run the scraper by passing a URL that contains PDFs:
 
-## How to Use
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/your-username/pdf-error-scraper.git
-   cd pdf-error-scraper
+```bash
+python scraper.py https://example.com/reports

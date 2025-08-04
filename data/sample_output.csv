@@ -1,0 +1,4 @@
+file,error_codes,config_params
+log1.pdf,"ERR1023, ERR2045","MAX_SPEED=250; TIMEOUT=30s"
+firmware.pdf,,"VERSION=1.2.0; BUILD=release"
+report.pdf,"ERR3001","RETRY_LIMIT=5; MODE=debug"
